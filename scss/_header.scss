@@ -1,0 +1,28 @@
+#header {
+    width: 100vw;
+    height: 10vh;
+    background-color: $color-fondo;
+    z-index: 2;
+
+     #navbar-nombre {
+        color: #fa8482;
+        font-weight: 700;
+        font-family: $font-merriweather;
+        font-weight: bold;
+    }
+    
+    &__items {
+        color: $color-negro;
+        text-decoration: none;
+        /* margin-right: 24%; */
+        background-color: $color-fondo;
+        
+        &:hover {
+            color: #fa8482;
+        }
+    }
+
+ 
+}
+
+

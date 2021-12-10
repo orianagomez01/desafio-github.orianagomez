@@ -1,0 +1,483 @@
+
+/* MEDIA QUERIES PRIMERA PANTALLA */
+
+/* DE 575 PARA ABAJO */
+@media screen and (max-width: 575.98px) {
+    .cover {
+        &__textos {
+            padding-bottom: 7.25rem;
+        }
+
+        &__subtexto {
+            font-size: 0.7rem;
+        }
+
+    }
+
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .collapsed {
+        background-color: $color-fondo;
+
+    }
+
+.nosotros {
+
+    &__img--matesrosa {
+        width: 43%;
+        margin-bottom: 6%;
+        margin-left: 26%;
+    }
+
+    &__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: 32%;
+    }
+
+    &__descripcion--textos {
+        width: 100%;
+    }
+}
+
+
+    .inicio {
+        height: 105vh;
+
+        &__cards {
+        text-align: center;
+         }
+
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+   
+    .footer {
+        height: 64vh;
+
+        &_contacto {
+            margin-top: 5%;
+        }
+    
+    }
+
+    .productos__cards {
+        width: 100vw;
+        height: 50vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+
+    .sets__cards {
+        width: 100vw;
+        height: 50vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) {
+
+.cover {
+
+    &__textos {
+        padding-bottom: 10.25rem;
+    }
+
+    &__subtexto {
+        font-size: 0.8rem;
+    }
+}
+    h1 {
+        font-size: 2.7rem;
+    }
+
+.card {
+    &--textom {
+        font-size: 2.2rem;
+    }
+
+    &-textos {
+        padding-bottom: 15.25rem;
+        font-size: 2rem;
+        line-height: 50px;
+        width: 100%;
+        left: 2px;
+    }
+
+}
+
+    .inicio {
+        height: 110vh;
+
+        &__cards {
+            text-align: center;
+        }
+    
+    }
+
+ 
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .nosotros {
+        &__img--matesrosa {
+            width: 43%;
+            margin-bottom: 0%;
+            margin-left: 26%;
+        }
+    
+    
+        &__img--matesvangogh {
+            width: 48%;
+            margin-left: -1%;
+            margin-bottom: 20%;
+        }
+    
+        &__descripcion--textos {
+            width: 100%;
+        }
+
+    }
+  
+
+  
+
+    .footer {
+        height: 64vh;
+        
+        &_contacto {
+            margin-top: 5%;
+        }
+    }
+
+
+    .productos__cards {
+        width: 150vw;
+        height: 52vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+
+    .sets__cards {
+        width: 100vw;
+        height: 54vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .cover {
+        &__textos {
+            padding-bottom: 15.25rem;
+        }
+    
+        &__subtexto {
+            font-size: 1rem;
+            font-family: 'Merriweather', serif;
+            font-weight: 500;
+        }
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    .card-textos {
+        padding-bottom: 4.25rem;
+        font-size: 1.2rem;
+        line-height: 25px;
+        width: 98%;
+        left: 2px;
+    }
+
+    .inicio {
+        height: 55vh;
+    }
+
+
+    .nosotros {
+    &__img--matesrosa {
+        width: 34%;
+        margin-bottom: -32%;
+        margin-left: 23%;
+    }
+
+
+    &__img--matesvangogh {
+        width: 40%;
+        margin-left: -1%;
+        margin-bottom: -15%;
+    }
+
+    &__descripcion--textos {
+        width: 100%;
+    }
+    }
+
+  
+    .footer {
+        height: 40vh;
+
+        &_contacto {
+            margin-top: 0%;
+        }
+    
+    }
+
+    .productos__cards {
+        width: 60vw;
+        height: 60vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 66vw;
+        height: 70vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .cards__img--set1 {
+        padding-bottom: 5%;
+    }
+
+    .cards__img--set2 {
+        padding-top: 3%;
+        /* padding-bottom: -4%; */
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .carrousel-caption {
+        bottom: -6.75rem;
+    }
+.cover {
+    &__textos {
+        padding-bottom: 13.25rem;
+    }
+
+    &__subtexto {
+        font-size: 1.2rem;
+    }
+
+}
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .card-textos {
+        padding-bottom: 7.25rem;
+
+        line-height: 32px;
+        width: 88%;
+        left: 7%;
+    }
+
+    .inicio {
+        height: 60vh;
+    }
+
+.nosotros{
+    &__img--matesrosa {
+        width: 31%;
+        margin-left: 20%;
+        margin-bottom: -37%;
+    }
+
+
+    &__img--matesvangogh {
+        width: 33%;
+        margin-left: -1%;
+        margin-bottom: -21%;
+
+    }
+
+    &__descripcion--textos {
+        width: 50%;
+    }
+}
+    .footer {
+        height: 44vh;
+    }
+
+
+    .productos__cards {
+        width: 50vw;
+        height: 55vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 50vw;
+        height: 70vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+ .cover {
+ 
+    &__textos {
+        padding-bottom: 24.25rem;
+    }
+
+    &__subtexto {
+        font-size: 1.5rem;
+    }
+ }
+
+    h1 {
+        font-size: 4.6rem;
+    }
+
+    .card-textos {
+        padding-bottom: 9.25rem;
+        left: 13%;
+        line-height: 32px;
+        width: 72%;
+    }
+
+    .inicio {
+        height: 60vh;
+    }
+
+    .nosotros {
+    &__img--matesrosa {
+        width: 24%;
+        margin-left: 14%;
+        margin-bottom: -10%;
+    }
+
+    &__img--matesvangogh {
+        width: 28%;
+        margin-left: -5%;
+        margin-bottom: -1%;
+    }
+
+    &__descripcion--textos {
+        width: 50%;
+    }
+
+    }
+    .footer {
+        height: 48vh;
+    }
+
+
+    .productos__cards {
+        width: 24vw;
+        height: 48vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 26vw;
+        height: 56vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .cards__img--set1 {
+        padding-bottom: 5%;
+    }
+
+    .cards__img--set2 {
+        /* padding-bottom: 1%; */
+        padding-top: 0%;
+        /* padding-bottom: -4%; */
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    h1 {
+        font-size: 4.6rem;
+    }
+
+    .card-textos {
+        font-size: 1.5rem;
+        padding-bottom: 12.25rem;
+        left: 13%;
+        line-height: 32px;
+        width: 72%;
+    }
+
+    .inicio {
+        height: 50vh;
+    }
+
+    .nosotros {
+    &__img--matesrosa {
+        width: 24%;
+        margin-left: 12%;
+        margin-bottom: -14%;
+    }
+
+    &__img--matesvangogh {
+        width: 28%;
+        margin-left: -4%;
+        margin-bottom: -7%;
+    }
+
+    &__descripcion--textos {
+        width: 50%;
+    }
+    }
+    .footer {
+        height: 48vh;
+    }
+
+
+    .productos__cards {
+        width: 20vw;
+        height: 48vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 20vw;
+        height: 57vh;
+        background-color: $color-cards;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+
+}

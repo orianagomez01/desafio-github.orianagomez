@@ -126,11 +126,11 @@ h1 {
     }
 }
 
-.inicio {
+/* .inicio {
     width: 100vw;
     height: 60vh;
     /* background-color: #ffd780; */
-    align-items: center;
+/* align-items: center;
 }
 
 .inicio__cards {
@@ -162,7 +162,7 @@ h1 {
     grid-row: 5/10;
 
 }
-
+*/
 .img__icono--mate {
     width: 70%;
 }
@@ -184,17 +184,16 @@ h1 {
     color: black;
 }
 
-
+/* 
 .iconify .inicio__icono {
     align-items: center;
     color: #ffd780;
-}
+} */
 
 
 .inicio__subtitulo {
     align-items: center;
 }
-
 
 .footer {
     width: 100vw;

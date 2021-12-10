@@ -1,0 +1,27 @@
+
+$font-merriweather: unquote ('Merriweather'), serif;
+$font-montserrat: unquote ('Montserrat'), sans-serif;
+$color-negro: #000000;
+$color-fondo: #EFE8E4;
+$color-cards: #f8f3e0;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* COLORES
+#fa8482 -  #ffd780 - #a5ac42 - #fb97d5  #f8f3e0 - #EFE8E4
+*/
+
+body {
+    font-family: $font-merriweather;
+    font-family: $font-montserrat;
+    
+h1 {
+    font-size: 4.6rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+}
