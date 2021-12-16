@@ -1,0 +1,63 @@
+
+/* PANTALLA DE NOSOTROS */
+
+.nosotros {
+
+    .secciones__titulos {
+        margin-top: 3%;
+    }
+   
+    &__imagenes {
+        width: 50%;
+        /* margin: 0; */
+    }
+
+    &__img--vector {
+        padding-top: 7%;
+    }
+    
+
+
+    &__descripcion--textos {
+        width: 50%;
+    }
+}
+
+
+
+// .nosotros__textos {
+//     animation: textos-animacion 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+//     clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+
+// }
+
+// @keyframes textos-animacion {
+//     to {
+//         clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
+//     }
+// }
+
+
+// USO EL EXTEND !!!!!!!!!!!!!!
+
+.nosotros__img--matesrosa {
+    z-index: 1;
+    width: 25%;
+    margin-bottom: -22%;
+    margin-left: 12%;
+
+    // animation: animacion-cards 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    // clip-path: circle(0% at 50% 50%);
+}
+
+.nosotros__img--matesvangogh {
+    @extend .nosotros__img--matesrosa;
+    z-index: 0;
+    margin-left: -5%;
+    margin-bottom: -12%;
+
+    // animation: animacion-cards 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    // clip-path: circle(0% at 50% 50%);
+}

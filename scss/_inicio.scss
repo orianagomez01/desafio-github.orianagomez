@@ -32,6 +32,13 @@
 
 }
 
+// AGREGO UN MIXIN !!!!!
+
+@mixin medidas-cards ($alto, $ancho) {
+height: $alto;
+width: $ancho;
+}
+
 
   // VER SI ESTE ESTA BIEN 
 .card {
@@ -62,8 +69,10 @@
 
 
 .inicio {
-    width: 100vw;
-    height: 60vh;
+
+    @include medidas-cards(60vh,100vw);
+    // width: 100vw;
+    // height: 60vh;
     align-items: center;
 
 &__cards {
@@ -77,21 +86,28 @@
 
 .img__icono--mate {
     width: 70%;
+    margin-right: 45%;
 }
+
 
 .img__icono--envios svg {
-    width: 23%;
-    height: 50%;
+    @include medidas-cards(50%, 23%);
+    // width: 23%;
+    // height: 50%;
 }
 
+// quizás acá se podría haber hecho un extend 
+
 .img__icono--promociones svg {
-    width: 23%;
-    height: 50%;
+    @include medidas-cards(50%, 23%);
+    // width: 23%;
+    // height: 50%;
 }
 
 &__img {  
-    width: 27%;
-    margin-bottom: 5%;
+    width: 30%;
+    margin-bottom: 8%;
+    margin-left: 40%;
     align-items: center;
     color: $color-negro;
 }

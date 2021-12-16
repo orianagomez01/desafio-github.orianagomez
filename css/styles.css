@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -63,28 +64,127 @@ body {
   color: #FFFFFF; }
 
 .inicio {
-  width: 100vw;
   height: 60vh;
+  width: 100vw;
   align-items: center; }
   .inicio__cards {
     margin-top: 3%; }
   .inicio h1 {
     font-size: 2rem; }
   .inicio .img__icono--mate {
-    width: 70%; }
+    width: 70%;
+    margin-right: 45%; }
   .inicio .img__icono--envios svg {
-    width: 23%;
-    height: 50%; }
+    height: 50%;
+    width: 23%; }
   .inicio .img__icono--promociones svg {
-    width: 23%;
-    height: 50%; }
+    height: 50%;
+    width: 23%; }
   .inicio__img {
-    width: 27%;
-    margin-bottom: 5%;
+    width: 30%;
+    margin-bottom: 8%;
+    margin-left: 40%;
     align-items: center;
     color: #000000; }
   .inicio__subtitulo {
     align-items: center; }
+
+/* PANTALLA DE NOSOTROS */
+.nosotros .secciones__titulos {
+  margin-top: 3%; }
+
+.nosotros__imagenes {
+  width: 50%;
+  /* margin: 0; */ }
+
+.nosotros__img--vector {
+  padding-top: 7%; }
+
+.nosotros__descripcion--textos {
+  width: 50%; }
+
+.nosotros__img--matesrosa, .nosotros__img--matesvangogh {
+  z-index: 1;
+  width: 25%;
+  margin-bottom: -22%;
+  margin-left: 12%; }
+
+.nosotros__img--matesvangogh {
+  z-index: 0;
+  margin-left: -5%;
+  margin-bottom: -12%; }
+
+/* PÁGINA DE PRODUCTOS!!!! */
+.productos__subtitulo {
+  font-family: unquote "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-bottom: 3%; }
+
+.productos__cards {
+  width: 20vw;
+  height: 32vh;
+  background-color: #f8f3e0;
+  border-radius: 9px;
+  margin-bottom: 2%; }
+  .productos__cards .cards__img {
+    width: 50%;
+    padding: 5%; }
+  .productos__cards .cards__img--cuchara {
+    width: 24%;
+    padding: 5%; }
+  .productos__cards .cards__img--cuenco {
+    width: 92%; }
+  .productos__cards .cards__img--azucarera {
+    width: 45%;
+    padding: 5%; }
+  .productos__cards .cards__img--tabla {
+    width: 57%;
+    padding: 5%; }
+  .productos__cards .cards__img--set1 {
+    padding-top: 5%; }
+  .productos__cards .cards__img--set2 {
+    width: 102%; }
+  .productos__cards .cards__img--bombilla {
+    width: 20%;
+    padding: 5%; }
+
+.sets__cards {
+  width: 20vw;
+  height: 51vh;
+  background-color: #f8f3e0;
+  border-radius: 9px;
+  margin-bottom: 2%; }
+
+.cards__titulo {
+  font-family: unquote "Merriweather", serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center; }
+
+.cards__descripcion {
+  font-family: unquote "Merriweather", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000; }
+
+.cards__precio {
+  font-family: unquote "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000; }
+
+.sets__titulo {
+  font-family: unquote "Merriweather", serif;
+  font-weight: bolder;
+  font-size: 2.8rem;
+  margin-bottom: 2%; }
 
 .footer {
   width: 100vw;
@@ -122,7 +222,7 @@ body {
     font-size: 2.3rem; }
   .collapsed {
     background-color: #EFE8E4; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 43%;
     margin-bottom: 6%;
     margin-left: 26%; }
@@ -178,7 +278,7 @@ body {
   .img__icono--mate {
     width: 90%;
     padding-left: 10%; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 43%;
     margin-bottom: 0%;
     margin-left: 26%; }
@@ -222,7 +322,7 @@ body {
     left: 2px; }
   .inicio {
     height: 55vh; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 34%;
     margin-bottom: -32%;
     margin-left: 23%; }
@@ -270,7 +370,7 @@ body {
     left: 7%; }
   .inicio {
     height: 60vh; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 31%;
     margin-left: 20%;
     margin-bottom: -37%; }
@@ -309,7 +409,7 @@ body {
     width: 72%; }
   .inicio {
     height: 60vh; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 24%;
     margin-left: 14%;
     margin-bottom: -10%; }
@@ -351,7 +451,7 @@ body {
     width: 72%; }
   .inicio {
     height: 50vh; }
-  .nosotros__img--matesrosa {
+  .nosotros__img--matesrosa, .nosotros__img--matesvangogh {
     width: 24%;
     margin-left: 12%;
     margin-bottom: -14%; }
